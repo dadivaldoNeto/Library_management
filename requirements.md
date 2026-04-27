@@ -6,7 +6,7 @@ Desenvolver um sistema de biblioteca que permita:
 - Realizar empréstimos e devoluções.
 - Consultar livros disponíveis.
 - Armazenar dados em **SQLite**.
-- Ter uma interface gráfica simples (JavaFX ou Swing).
+- Ter uma interface gráfica simples (JavaFX).
 
 ---
 
@@ -17,6 +17,7 @@ Desenvolver um sistema de biblioteca que permita:
   - `Livro`
   - `Usuario`
   - `Funcionario` (herda de `Usuario`)
+  - `Cliente` (herda de `Usuario`)
   - `Emprestimo`
 
 ### 2. **Módulo de Persistência (DAO)**
