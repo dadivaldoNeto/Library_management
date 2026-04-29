@@ -1,0 +1,14 @@
+Class livro
+ Páginas do livro
+ Titulo do livro
+ Data de lançamento
+ Idioma
+ Autor(es)
+ Editora
+----------------------------
+
+getDatas
+GetEspecific data
+
+Set Datas
+SetEspecific data
