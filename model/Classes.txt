@@ -12,3 +12,16 @@ GetEspecific data
 
 Set Datas
 SetEspecific data
+
+--------------------------
+Class Usuário
+
+What its know?
+	His name.
+	His unique_id(BI equivalence);
+	His age;
+
+What its does?
+	Update_the_age();
+	tell_the_name();
+	tell_the_age();

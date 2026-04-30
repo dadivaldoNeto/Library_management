@@ -1,7 +1,6 @@
 package model;
 import java.time.*;
 
-
 public class Livro {
 	private final String title;
 	private final int pages;
