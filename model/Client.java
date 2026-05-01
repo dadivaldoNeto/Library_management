@@ -2,6 +2,9 @@ package model;
 
 public class Client extends User{
 	
+	public Client() {
+
+	};
 	public boolean reservarLivro(int bookId) {
 		return (true);
 	}
@@ -13,5 +16,4 @@ public class Client extends User{
 	public boolean devolverLivro(int bookId) {
 		return true;
 	}
-	
 }
