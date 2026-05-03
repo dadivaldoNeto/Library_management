@@ -14,13 +14,13 @@ public abstract class User {
 		System.out.println("How old: " + age);
 	}
 
-	protected User() {
+	private User() {
 		name = "ABC";
 		id = ++total_users;
 		age = 13;
 	}
 
-	protected User(String n, int a) {
+	public User(String n, int a) {
 		name = n;
 		id = ++total_users;
 		age = a;
