@@ -1,7 +1,7 @@
 package model;
 
 enum State {
-	OVERDUE(1), ACTIVE(2), COMPLETED(3);
+	BORROW(1), IN_STOCK(2);
 
 	private final int state;
 	State(int i) {

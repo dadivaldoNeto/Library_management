@@ -17,5 +17,4 @@ public class Emprestimo {
         this.dataDevolucaoPrevista = dataDevolucaoPrevista;
         this.ativo = State.ACTIVE;
     }
-
 }
