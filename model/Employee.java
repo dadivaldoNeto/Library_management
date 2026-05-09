@@ -1,9 +1,12 @@
 package model;
 
 public class Employee extends User {
-	Employee() {
-		this.name = "Dadi";
-		this.id = 1;
-		this.
-	}
+	public Employee() {
+		super("Dad", 2, Level.EMPLOYEE);
+	};
+
+	public Employee(String name) {
+		super(name, 2, Level.EMPLOYEE);
+	};
+
 }

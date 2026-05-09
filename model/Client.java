@@ -3,18 +3,11 @@ package model;
 public class Client extends User{
 	
 	public Client() {
-		super("Dadivaldo", 19);
-		System.out.println("Hello");
+		super("Dad", 1, Level.CLIENT);
 	};
-	public boolean reservarLivro(int bookId) {
-		return (true);
-	}
 
-	public boolean AvaliarLivro(int id) {
-		return true;
-	}
+	public Client(String name) {
+		super(name, 1, Level.CLIENT);
+	};
 
-	public boolean devolverLivro(int bookId) {
-		return true;
-	}
 }

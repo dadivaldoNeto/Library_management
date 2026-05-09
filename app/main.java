@@ -1,5 +1,4 @@
 import model.*;
-import model.Livro;
 
 public class main {
 	public static void main(String[] args) {
