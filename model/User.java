@@ -6,12 +6,6 @@ public abstract class User {
 	protected final String name;
 	protected final int id;
 
-	protected User() {
-		this.level(1);
-		this.name = "Dad";
-		this.id = 1;
-	}
-
 	protected User(String name, int id, Level level) {
 		this.level = level;
 		this.name = name;

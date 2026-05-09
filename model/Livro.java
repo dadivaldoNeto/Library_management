@@ -8,6 +8,7 @@ public class Livro {
 
 	public Livro(String t) {
 		title = t;
+        release = LocalDate.of(2008, 8, 1);
 		id = 1;
 		// it must create a DB register
 	}
