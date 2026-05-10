@@ -13,7 +13,8 @@ public abstract class User {
 	}
 
 	public void showInfo() {
-		System.out.println("User: " + name);
-		System.out.println("Id: " + id);
+		System.out.println("User NAME: " + name);
+		System.out.println("User ID: " + id);
+		System.out.println("User LEVEL: " + level);
 	}
 }
